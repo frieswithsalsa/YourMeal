@@ -91,19 +91,6 @@ main {
   border: 1px solid yellow;
 } */
 
-.cart {
-  background-color: white;
-  width: 300px;
-  height: 109px;
-  border-radius: 10%;
-  margin-top: 122px;
-  margin-left: 75px;
-  display: flex;
-  width: 300px;
-  height: 467px;
-  border-radius: 18px;
-}
-
 .addtocart {
   border-radius: 50px;
   border: none;
@@ -132,7 +119,7 @@ main {
 
 .product {
   margin-left: 405px;
-  margin-top: -556px;
+  margin-top: 50px;
 }
 
 .card--list {
@@ -168,26 +155,6 @@ h2.product-characteristic {
   font-weight: 600;
 }
 
-.cart-item {
-  display: flex;
-  margin-left: 16px;
-}
-
-/* .cart1 {
-  margin-left: 16px;
-  font-weight: 600;
-  padding: 0;
-} */
-
-.cart-items {
-  margin-top: 76px;
-  height: 52px;
-  width: 64px;
-  left: 0px;
-  top: 16px;
-  border-radius: 8px;
-}
-
 ul {
   list-style-type: none;
 }
@@ -197,23 +164,60 @@ ul {
   }
 }
 
-.nwp {
-  margin-top: 75px;
-  padding: 0;
-  margin-left: 6px;
+.cart-head {
+  display: flex;
+}
+
+.cart-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-bottom: 28px;
+}
+.total {
+  margin-left: 129px;
+  margin-top: 28px;
+  margin-right: ;
+  font-weight: 400;
+  width: 41px;
+  height: 20px;
+  left: 243px;
+  top: 26px;
+  background: #f2f2f3;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.cart {
+  margin-top: 122px;
+  margin-left: 75px;
+  height: 467px;
+  width: 300px;
+  left: 75px;
+  top: 668px;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
-  width: 83px;
-  height: 16px;
-  left: 70px;
-  top: 15px;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #000000;
+  margin-left: 86px;
 }
 
 .weight {
@@ -222,8 +226,11 @@ ul {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin-left: 86px;
   margin-top: 1px;
   color: #b1b1b1;
+  margin-bottom: 0;
+  width: 0;
 }
 
 .price {
@@ -232,117 +239,33 @@ ul {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin-left: 86px;
   margin-top: 6px;
   color: #000000;
+  width: 0;
 }
 
-.main-cart {
-  padding: 0;
-  margin: 0;
-}
-
-.cart-items2 {
-  margin-top: 31px;
+.mini {
   margin-left: 16px;
+  position: absolute;
 }
 
-.nwp2 {
-  margin-top: -58px;
-  padding: 0;
-  margin-left: 86px;
-  padding-right: 0;
-}
+/* .line {
+  border-bottom: 1px solid #f2f2f3;
+  width: 268px;
+} */
 
-.nwp3 {
-  margin-left: 46px;
-  margin-top: -60px;
-}
-
-.quantity1 {
+.quantity {
   width: 84px;
   height: 40px;
   left: 184px;
   top: 22px;
-  margin-top: 82px;
-  margin-left: 31px;
-}
-
-.quantity2 {
-  margin-left: 200px;
-  margin-top: 0px;
-  padding: 0;
-  display: flex;
-  margin-top: -43px;
-}
-
-.quantity3 {
-  margin-left: 114px;
-  display: flex;
-  margin-top: -43px;
-}
-
-.total {
-  display: flex;
-  margin-left: 91px;
-  margin-top: -120px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 130%;
-}
-
-.total1 {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 130%;
-  display: flex;
-  margin-left: 311px;
-  margin-top: -38px;
-}
-
-.orderbutton {
+  background: #f2f2f3;
   border-radius: 12px;
-  margin-left: 91px;
-  width: 268px;
-  height: 40px;
-  border: none;
-  background-color: #ff7020;
-  color: #ffffff;
+  border: 0;
+  margin-left: 200px;
 }
 
-.freedilivery {
-  display: flex;
-}
-
-.free {
-  margin-left: 91px;
-  margin-bottom: 24px;
-}
-
-.del {
-  margin-top: 12px;
-  margin-left: 8px;
-  margin-bottom: 35px;
-  font-weight: 100;
-}
-
-.line {
-  border-bottom: 1px solid #f2f2f3;
-  padding: 0;
-  margin-top: 16px;
-  width: 268px;
-  margin-left: 16px;
-  margin-bottom: -15px;
-}
-
-.line1 {
-  border-bottom: 1px solid #f2f2f3;
-  padding: 0;
-  margin-top: 16px;
-  width: 268px;
-  margin-left: -70px;
-  margin-bottom: -15px;
+.buttons {
+  width: 0;
 }
