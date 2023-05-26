@@ -118,7 +118,7 @@ main {
 }
 
 .product {
-  margin-left: 405px;
+  margin-left: 30px;
   margin-top: 50px;
 }
 
@@ -195,7 +195,7 @@ ul {
 .cart {
   margin-top: 122px;
   margin-left: 75px;
-  height: 467px;
+  height: 487px;
   width: 300px;
   left: 75px;
   top: 668px;
@@ -277,4 +277,80 @@ ul {
   width: 268px;
   margin-top: 13px;
   margin-left: -70px;
+}
+
+.total-price {
+  margin-top: 34px;
+  padding: 0;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.total2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: right;
+  margin-right: 16px;
+}
+
+.order-button {
+}
+
+.ordbutt {
+  margin-top: 20px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 32px;
+  gap: 10px;
+  border: none;
+  width: 268px;
+  height: 40px;
+  left: 16px;
+  top: 371px;
+  background: #ff7020;
+  border-radius: 12px;
+}
+
+.makeorder {
+  width: 125px;
+  height: 16px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.free-delivery {
+  display: flex;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.fd {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.main-page {
+  display: flex;
 }
