@@ -123,8 +123,8 @@ main {
 }
 
 .card--list {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-characteristic {
@@ -354,3 +354,6 @@ ul {
 .main-page {
   display: flex;
 }
+
+.burgers {
+  
