@@ -193,10 +193,10 @@ ul {
 }
 
 .cart {
-  margin-top: 122px;
+  margin-top: 134px;
   margin-left: 75px;
   height: 487px;
-  width: 300px;
+  width: 430px;
   left: 75px;
   top: 668px;
   border-radius: 18px;
@@ -355,5 +355,11 @@ ul {
   display: flex;
 }
 
-.burgers {
-  
+.pr-it {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  margin-left: 40px;
+}
