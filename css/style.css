@@ -393,3 +393,23 @@ ul {
   font-size: 12px;
   line-height: 16px;
 }
+
+.footer-contacts {
+  margin-left: 735px;
+}
+
+.how-to-order {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.phone {
+  margin-top: 25px;
+}
+.phone a {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
