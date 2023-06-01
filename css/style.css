@@ -363,3 +363,33 @@ ul {
 .category-item {
   margin-left: 40px;
 }
+
+.footer {
+  margin-top: 100px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%px;
+}
+
+.company {
+  display: flex;
+}
+
+.yourmeal {
+  margin-top: 46px;
+  margin-left: 75px;
+  height: 37px;
+}
+
+.copyright {
+  margin-left: 75px;
+  height: 40px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.copy {
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
