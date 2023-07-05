@@ -159,11 +159,6 @@ ul {
   list-style-type: none;
 }
 
-@media (min-width: 1200px) {
-  .product-item {
-  }
-}
-
 .cart-head {
   display: flex;
 }
@@ -451,4 +446,59 @@ ul {
 
 .vk {
   padding-right: 10px;
+}
+
+@media (min-width: 1024px) {
+  .header {
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+  }
+}
+
+@media (min-width: 320px) {
+  .header {
+  }
+}
+
+@media (min-width: 320px) {
+  .cart {
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-item {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-item {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 320px) {
+  .product-item {
+  }
+}
+
+@media (min-width: 1024px) {
+  .ott {
+  }
+}
+
+@media (min-width: 768px) {
+  .ott {
+  }
+}
+
+@media (min-width: 320px) {
+  .product-item {
+  }
+}
+
+@media (min-width: 320px) {
 }
